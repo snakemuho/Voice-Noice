@@ -140,6 +140,11 @@ PrefabInstance:
       propertyPath: footstepSounds.Array.size
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4582019822591254233, guid: a01c7516e659bdf4b9897ab54df69b69,
+        type: 3}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: baffe12046e8f2a489770e18a023366c, type: 2}
     - target: {fileID: 4582019824381016672, guid: a01c7516e659bdf4b9897ab54df69b69,
         type: 3}
       propertyPath: detector
@@ -9818,6 +9823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b65d5cad40ebbb740be373af1e88ce3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isAlive: 1
 --- !u!4 &1685541133
 Transform:
   m_ObjectHideFlags: 0
